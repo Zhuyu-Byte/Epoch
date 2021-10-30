@@ -1,0 +1,13 @@
+server:
+  port: 8010
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # exposure all endpoints
+      base-path: /epoch/actuator
+    enabled-by-default: true # web inaccessible
+  endpoint:
+    health:
+      show-details: always

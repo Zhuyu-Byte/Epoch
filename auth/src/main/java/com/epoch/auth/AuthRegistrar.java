@@ -1,7 +1,7 @@
 package com.epoch.auth;
 
-import com.epoch.delegate.RegistrarDelegate;
-import com.epoch.unchanged.enums.RegistrarEnum;
+import com.epoch.delegate.service.RegistrarDelegate;
+import com.epoch.fixed.enums.RegistrarEnum;
 
 /**
  * auth model registrar class

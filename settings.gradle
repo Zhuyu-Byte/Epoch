@@ -1,4 +1,5 @@
 rootProject.name = 'Epoch'
 include 'auth'
 include 'core'
+include 'actuator'
 

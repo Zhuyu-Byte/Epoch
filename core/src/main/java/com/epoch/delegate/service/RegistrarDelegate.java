@@ -1,6 +1,6 @@
-package com.epoch.delegate;
+package com.epoch.delegate.service;
 
-import com.epoch.unchanged.enums.RegistrarEnum;
+import com.epoch.fixed.enums.RegistrarEnum;
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
 

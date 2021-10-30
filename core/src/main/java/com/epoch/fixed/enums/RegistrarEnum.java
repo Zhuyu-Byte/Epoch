@@ -1,4 +1,4 @@
-package com.epoch.unchanged.enums;
+package com.epoch.fixed.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
