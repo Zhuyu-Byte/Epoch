@@ -13,7 +13,7 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@RequestingMapping(method = RequestMethod.GET)
+@RequestingMapping
 public @interface GetRequesting {
 
     /**

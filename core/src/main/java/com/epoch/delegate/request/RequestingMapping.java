@@ -4,6 +4,8 @@ import org.springframework.core.annotation.AliasFor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.lang.annotation.*;
+
 /**
  * Override spring @RequestMapping.
  * RequestMapping Plus.
@@ -15,6 +17,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author zhuyu
  * @since Create in 2021-10-31
  */
+@Target({ElementType.METHOD, ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+@RequestMapping
 public @interface RequestingMapping {
 
     /**
